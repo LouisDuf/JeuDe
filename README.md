@@ -82,4 +82,4 @@ ConsoleGame ..> Game
 
 @enduml
 ```
-
+Documentation officiel : https://openjfx.io/
