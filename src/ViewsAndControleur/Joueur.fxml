@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root alignment="TOP_CENTER" type="javafx.scene.layout.VBox" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewsAndControleur.CtrlJoueur">
+   <TextField />
+   <Label text="Total Score" GridPane.rowIndex="1"/>
+   <Label fx:id="totalScoreLabel" styleClass="label-score" text="0"/>
+   <FlowPane alignment="CENTER">
+         <Label text="CurrentScore"/>
+         <Label fx:id="CurrentScoreLabel" text="0"/>
+   </FlowPane>
+</fx:root>
